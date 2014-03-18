@@ -42,14 +42,14 @@ font-family: Futura;
 src: url('/assets/fonts/futura.ttc');
 }
 
-@media only screen and (max-width: 1108px){
+@media only screen and (max-width: 1108px) {
+	#yellow_box {
+		display: none;
+	}
 
-#yellow_box
-{display: none};
-
-#count
-{display: none};
-
+	#count {
+		display: none;
+	}
 }
 
 
