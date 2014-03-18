@@ -10,8 +10,6 @@ margin:0px;
 }
 
 
-
---------------------
 @font-face
 {
 font-family: Vinyl;
@@ -42,15 +40,6 @@ font-family: Futura;
 src: url('/assets/fonts/futura.ttc');
 }
 
-@media only screen and (max-width: 1108px) {
-	#yellow_box {
-		display: none;
-	}
-
-	#count {
-		display: none;
-	}
-}
 
 
 .top img
@@ -102,6 +91,17 @@ height: 80%;
 	margin: 22px 10px;
 }
 
+@media only screen and (max-width: 1108px) {
+	#yellow_box {
+		display: none;
+	}
+
+	#count {
+		display: none;
+	}
+}
+
+
 #count
 {
 	background: #ffd62c;
@@ -118,6 +118,10 @@ height: 80%;
 	text-align: center;
 	color: #000000;
 	font-family: HelveticaNeue;
+}
+
+.ceremony-start-text {
+	margin: 16px 0;
 }
 
 #cntdwn
