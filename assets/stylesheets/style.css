@@ -1,0 +1,502 @@
+html
+{
+position: relative;
+}
+
+body
+{
+color:white;
+margin:0px;
+}
+
+
+
+--------------------
+@font-face
+{
+font-family: Vinyl;
+src: url('/assets/fonts/vinyl.otf');
+}
+
+@font-face
+{
+font-family: Pacifico;
+src: url('/assets/fonts/pacifico.ttf');
+}
+
+@font-face
+{
+font-family: Impact;
+src: url('/assets/fonts/impact.ttf');
+}
+
+@font-face
+{
+font-family: HelveticaNeue;
+src: url('/assets/fonts/HelveticaNeue.dfont');
+}
+
+@font-face
+{
+font-family: Futura;
+src: url('/assets/fonts/futura.ttc');
+}
+
+@media only screen and (max-width: 1108px){
+
+#yellow_box
+{display: none};
+
+#count
+{display: none};
+
+}
+
+
+.top img
+{
+min-height: 80%;
+min-width: 1024px;
+max-height: 90%;
+z-index: 0;
+width: 100%;
+height: 80%;
+}
+
+
+
+.slide
+{
+	margin: 0 auto;
+	width: 100%;
+	height: 50rem;
+}
+
+
+#welcome_box
+{
+	border: 5px dotted black;
+	color: black;
+	font-size: 22px;
+	font-family: HelveticaNeue;
+	padding:13px;
+	float:left;
+	width: 562px;
+	height: 117px;
+	float: left;
+	font-style:italic;
+	margin: 22px 34px 0px 235px;
+}
+
+#welcome_box span 
+{
+	color: #ffd62c;
+	font-style:italic;
+}
+
+#yellow_box
+{
+	width: 220px;
+	height: auto;
+	float: left;
+	margin: 22px 10px;
+}
+
+#count
+{
+	background: #ffd62c;
+	padding: 1px 0 0 0;
+	width: 100%;
+	height: 151px;
+	-webkit-transition: background-color .25s ease-in;
+}
+
+#count p
+{
+	padding-bottom: 10px;
+	border-bottom: 4px solid #fff;
+	text-align: center;
+	color: #000000;
+	font-family: HelveticaNeue;
+}
+
+#cntdwn
+{
+	text-align: center;
+	line-height: 0.7;
+	font-family: HelveticaNeue;
+}
+
+.profile
+{
+	width: 460px;
+	height: auto;
+	float: left;
+	margin: 25px 0 0 10px;
+}
+
+#michelle
+{
+	margin-left: 235px;
+}
+
+#profile_label
+{
+	width: 100%;
+	margin: 15px 0;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	font-weight: 400;
+	font-family: Vinyl;
+	font-size: 26px;
+	color: #000000;
+}
+
+.profile p
+{
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #989898;
+	width: 415px;
+	line-height: 1.4;
+	font-weight: lighter;
+}
+
+#proposal
+{
+	margin-top: 120px;
+}
+
+.how_we_met
+{
+	width: 830px;
+	margin-left: 235px;
+	height: auto;
+	margin-top: 720px;
+}
+
+.how_we_met p
+{
+	font-size: 16px;
+	font-family: HelveticaNeue;
+	color: #000;
+	line-height: 1.5;
+}
+
+.how_we_met h1
+{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	font-weight: 400;
+	font-family: Vinyl;
+	font-size: 26px;
+	color: #000000;
+}
+
+.proposal_text
+{
+	width: 830px;
+	margin-left: 235px;
+	height: auto;	
+}
+
+.proposal_text p
+{
+	font-size: 16px;
+	font-family: HelveticaNeue;
+	color: #000;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+
+.proposal_text h1
+{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	font-weight: 400;
+	font-family: Vinyl;
+	font-size: 26px;
+	color: #000000;
+	margin-top: 50px;
+}
+
+#proposal_photo_left
+{
+	float:left;
+	margin-right: 30px;
+}
+
+#party
+{
+	margin-top: 90px;
+}
+
+.column
+{
+	width:450px;
+	margin: 10px 0 0 0;
+	float: left;
+	height: auto;
+}
+
+.column img
+{
+	padding-left: 90px;
+}
+
+.column h2
+{
+	text-transform: uppercase;
+	letter-spacing: -.05em;
+	font-weight: 900;
+	font-family: Futura;
+	font-size: 19px;
+	color: #989898;
+	text-align: center;
+}
+
+.column p 
+{
+	font-family: Helvetica;
+	font-size: 14px;
+	text-align: left;
+	color: #989898;
+	line-height: 1.4;
+	font-weight: lighter;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#bride
+{
+	margin-left: 190px;
+	margin-right: 60px;
+}
+
+
+#party h1
+{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	font-weight: 400;
+	font-family: Vinyl;
+	font-size: 26px;
+	color: #000000;
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#rsvp
+{
+	margin-top: 2200px;
+}
+
+.rsvp_outline
+{
+	width: 500px;
+	height: 300px;
+	box-shadow: 
+   	 	0 0 0 8px #ffd62c,
+    	0 0 0 23px #ffffff,
+    	0 0 0 38px #d9e2e4;
+ 	margin:auto;
+ 	margin-top: 115px;
+ 	padding: 40px;
+}
+
+.rsvp_outline form
+{
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.7;
+}
+
+.rsvp_outline .width
+{
+	width: 300px;
+	padding-left: 5px;
+}
+
+.rsvp_outline .submit
+{
+	background-color: black;
+	color:white;
+	margin: auto;
+	font-size: 18px;
+	padding: 10px;
+	margin-left: 42%;
+}
+
+
+.travel_header
+{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	font-weight: 400;
+	font-family: Vinyl;
+	font-size: 26px;
+	color: #000000;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 235px;
+}
+
+.cursive_header
+{
+	font-family: Pacifico;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-left: 237px;
+	color: black;
+}
+
+.travel_text
+{
+	font-size: 16px;
+	font-family: HelveticaNeue;
+	color: #000;
+	line-height: 1.5;
+	margin-left: 235px;
+	width:830px;
+	height:auto;
+
+}
+
+#hotel_info
+{
+	margin-left: 235px;
+	font-weight: 800;
+	font-size: 16px;
+	font-family: HelveticaNeue;
+	color: #000;
+	line-height: 1.5;
+	float:left;
+	margin-top: 30px;
+	margin-right: 176px;
+}
+
+#map 
+{
+	margin-top: 35px;
+}
+
+#travel hr 
+{
+	width:830px;
+	margin-left: 235px;
+	border: 3px solid #ffd62c;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#registry
+{
+	margin-top: 1200px;
+}
+
+#zola
+{
+	font-size: 100px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	font-weight: 400;
+	font-family: Vinyl;
+	color: #000000;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#zola_description
+{
+	font-family: HelveticaNeue;
+	font-size: 13px;
+	text-align: center;
+	color:black;
+}
+
+#footer
+{
+	font-family: Pacifico;
+	font-size: 30px;
+	color:black;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	border-top: 8px dotted #d9e2e4;
+	border-bottom: 8px dotted #d9e2e4;
+	margin-top: 290px;
+}
+
+#footer img
+{
+	margin: 0px 10px 0px 10px;
+}
+
+#designed_by
+{
+	text-align: center;
+	font-family: HelveticaNeue;
+	font-size: 12px;
+	color: #989898;
+	font-style: italic;
+	margin-top: 54px;
+}
+
+.nav li
+{
+	display: inline;
+	font-family: Vinyl;
+	font-size: 26px;
+	color: #000000;
+	text-decoration: none;
+	margin: -43px auto 0 auto;
+	text-align: center;
+	width: 635px;
+	height: auto;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: -.07em;
+	padding: 19px 39px 19px 0px;
+}
+
+#aside
+{
+	font-size: 12px;
+	margin: 8px 0px 0px 118px;
+}
+
+.nav 
+{
+	text-align: center;
+	min-width: 1024px;
+}
+
+.nav a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.underline:hover
+{
+	border-bottom: 5px solid #ffd62c;
+}
+
+.section_title
+{
+	color:black;
+	font-family: Pacifico;
+	font-size: 50px;
+	text-align: center;
+	background-color: #ffd62c;
+	padding: 5px 0px 5px 0px;
+}

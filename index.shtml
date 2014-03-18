@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">	
+	<title>Blake and Michelle are Getting Married</title>
+	<meta name="description=" content="wedding website for Blake and Michelle">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+	<!-- <link rel="icon" type="image/png" href="assets/images/favicon.ico"> -->
+
+
+</head>
+<body>
+	<div class="top">
+		<img src="assets/images/pier66.jpg">	
+	</div>
+		
+
+	<div class="slide" id="home">
+		<ul class="nav">
+			<li id="couple_nav" class="nav_button" data-target="#couple">
+				<span class="underline"><a href="#">The Couple</a></span>
+			</li>
+			<li id="proposal_nav" class="	nav_button" data-target="#proposal">
+				<span class="underline"><a href="#">Proposal</a></span>
+			</li>
+			<li id="party_nav" class="nav_button" data-target="#party">
+				<span class="underline"><a href="#">Wedding Party</a></span>
+			</li>	
+			<li id="rsvp_nav" class="nav_button" data-target="#rsvp">
+				<span class="underline"><a href="#">RSVP</a></span>
+			</li>
+			<li id="travel_nav" class="nav_button" data-target="#travel">
+				<span class="underline"><a href="#">Travel Info</a></span>
+			</li>
+			<li id="registry_nav" class="nav_button" data-target="#registry">
+				<span class="underline"><a href="#">Registry</a></span>
+			</li>
+		</ul>	
+
+		<div id="welcome_box">
+			Hello!  Welcome to our wedding website. We can’t wait to celebrate our wedding on January 17, 2015 with everyone. Until then, take some time to explore our site and plan your travels. <span>Don’t forget to RSVP!</span> — M & B
+		</div>	
+		<div id="yellow_box">
+			<div id="count">
+				<p>The ceremony begins in:</p>
+				<script language="JavaScript">
+					TargetDate = "01/17/2015 5:00 PM";
+					BackColor = "#000000";
+					ForeColor = "#000000";
+					CountActive = true;
+					CountStepper = -1;
+					LeadingZero = true;
+					DisplayFormat = "<h1>%%D%% Days</h1><h3>%%H%% Hrs &amp; %%M%% Mins</h3>";
+					FinishMessage = "It's Finally Here!";
+				</script>
+				<script language="JavaScript" src="assets/scripts/countdown.js"></script>
+			</div> 
+		</div>
+		<div class="profile" id="michelle">
+			<div id="profile_label">
+				Michelle
+			</div>
+			<img src="assets/images/michelle.jpg">
+			<p>Orignally from Rhode Island, Michelle has recently relocated to Miami, FL. Although a lawyer by day, she keeps herself busy planning her next travel adventures. She’s a big fan of sushi, kitty cats, cooking, web design, and offbeat Netflix documentaries.</p>
+		</div>
+		<div class="profile">
+			<div id="profile_label">
+				Blake
+			</div>
+			<img src="assets/images/blake.jpg">
+			<p>Blake was born and raised in Miami, although he spent the last 10 years of his life in NYC and Boston. He works as a software engineer. When he’s not coding up a storm, he loves playing guitar, street hockey, traveling, and watching the Miami Heat.</p>		
+		</div>	
+		<div class="how_we_met">
+			<h1>How We Met</h1>
+			<p>When Michelle was in law school in Boston, a mutual friend and classmate often invited Blake (one of her college friends) to various law school events. From trips to Maine to sushi nights, Blake and Michelle were always at the same events with the same circle of friends, but they hardly talked. Little did Michelle know that Blake secretly had a crush on her.<br><br>
+
+			Finally, when the two of them were playing pool one night, Blake asked Michelle on a date. He suggested they go movie hopping over the long weekend. Michelle immediately said she was too busy, but then quickly changed her mind and said yes. Over Columbus Day weekend of 2010, they went on a three movie marathon date and then to dinner afterward.  The rest is history!</p>
+		</div>	
+
+	<div class="slide" id="proposal">
+		<div class="section_title">
+			Proposal
+		</div>	
+		<div class="proposal_text">
+			<h1>How it all happened</h1>
+			<p>In August 2013, we were selling all our belongings, packing up, and getting ready to leave NYC. During this time, Michelle was taking a design class every Wednesday night. One evening, as the class was ending, Michelle called Blake and asked if she should pick up sandwiches for dinner. Blake told her that he would order some Indian food, and that she should just come straight home.<br><br>
+
+			Thirty minutes later, Michelle came home and smelled something amazing cooking as she walked down the hallway. When she opened the door, she was surprised to see rose petals lining the table, candles, wine, and a bouquet of beautiful roses. Moreover, Blake had prepared a gourmet meal of steak, potatoes and asparagus with some help from a kind employee at Whole Foods. Blake immediately got down on one knee and proposed. Michelle cried of course, and said yes! 
+			</p>
+			<div id="proposal_photo_left"><img src="assets/images/proposal1.jpg"></div>
+			<img src="assets/images/ring.jpg">
+		</div>	
+	</div>
+
+	<div class="slide" id="party">
+		<div class="section_title">
+			Wedding Party
+		</div>
+		<div class="column" id="bride">
+			<h1>Bride's Attendants</h1>
+			
+			<img src="assets/images/char.jpg">
+			<h2>Charmiane Lieu</h2>
+			<p>Michelle and Char became friends freshman year of college. Over the years, Char has joined the Rittners for holidays and family celebrations whenever she can't make it home. Char always knows how to make Michelle laugh with her gross doctor stories and general silliness!</p>
+			
+			<img src="assets/images/lindseyR.jpg">
+			<h2>Lindsey Rhodes</h2>
+			<p>Lindsey and Michelle met when they were in kindergarten, and Lindsey’s family moved two doors down from hers.They soon became inseparable, playing Barbies, choreographing dances, and having sleepovers. Even though Lindsey has moved to every corner of the country, they have always remained good friends.</p>
+
+			<img src="assets/images/david.jpg">
+			<h2>David Rittner</h2>
+			<p>David is the best little brother Michelle could ask for (even though he’s about a foot taller than her). Although they live far apart, they always ask for each others’ advice about school, life and work.</p>
+
+			<img src="assets/images/lindseyF.jpg">
+			<h2>Lindsey Fernandez</h2>
+			<p>Lindsey and Michelle met when they lived in the same dorm during freshman year at Brown. They have always shared a passion for travel, art and film. They even spent summer 2005 together in China teaching English.</p>
+
+			<img src="assets/images/jason.jpg">
+			<h2>Jason Chen</h2>
+			<p>Jason and Michelle became friends while enduring the best (and worst) of Brown's poly sci classes. Jason's impeccable style, witty jokes, and love of the NYC food scene makes hanging out with him a blast.</p>
+
+			<img src="assets/images/laura.jpg">
+			<h2>Laura Snizek</h2>
+			<p>Friends since freshman year of college, Laura always encourages Michelle to get more in touch with nature. Although she now lives in Atlanta, Laura and Michelle have a shared love for Rhode Island's finest institutions (i.e. Wright's Chicken Farm and Jack-o-Lantern Spectacular).</p>
+
+		</div>	
+
+		<div class="column">
+			<h1>Groom's Attendants</h1>
+			
+			<img src="assets/images/brian.jpg">
+			<h2>Brian Tovar</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere. Duis et volutpat nisl, vel malesuada nisl. Nam id sem urna.</p>
+			
+			<img src="assets/images/antonio.jpg">
+			<h2>Antonio Dell'Aglio</h2> 
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere. Duis et volutpat nisl, vel malesuada nisl. Nam id sem urna.</p>
+
+			<img src="assets/images/kyle.jpg">
+			<h2>Kyle Rego</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+
+			<img src="assets/images/charley.jpg">
+			<h2>Charley McMillan</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+
+			<img src="assets/images/manav.jpg">
+			<h2>Manav Malhotra</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+
+			<img src="assets/images/matthew.jpg">
+			<h2>Matthew Gordon</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+
+		</div>	
+	</div>
+
+	<div class="slide" id="rsvp">
+		<div class="section_title">
+			RSVP
+		</div>	
+		<div class="rsvp_outline">
+			<form>
+				Name <input type="text" class="width" name="name"><br>
+				<input type="checkbox" name="attendance" class="padding" value="yes">Will attend
+				<input type="checkbox" name="attendance" class="padding" value="no">Regretfully declines<br>
+				<p>Please indicate your entrée selection:</p>
+				<input type="checkbox" name="meal" class="padding" value="beef">Beef Tenderloin<br>
+				<input type="checkbox" name="meal" class="padding" value="fish">Daily Catch (mahi mahi or corvina)<br>
+				<input type="checkbox" name="meal" class="padding" value="veggie">Vegetarian<br><br><br>
+				<input type="submit" class="submit" value="Submit">
+				<div id="aside">*Please submit a separate RSVP for each guest</div>
+			</form>	
+		</div>	
+	</div>	
+
+	<div class="slide" id="travel">
+		<div class="section_title">
+			Travel Info
+		</div>	
+		<div class="travel_header">
+			Where/When
+		</div>
+		<div class="cursive_header">
+			Ceremony
+		</div> 	
+		<div class="travel_text">
+			The wedding ceremony will begin at 5pm on the Royal Palm Lawn at the <a href="https://pier66.hyatt.com/en/hotel/home.html">Hyatt Pier 66 Hotel</a>. The Royal Palm Lawn is located in the back of the Pier 66 tower, in front of the pool area. Hotel staff will direct you to the Lawn upon your arrival. 
+		</div>	
+		<div id="hotel_info">
+			Hyatt Regency Pier Sixty-Six<br>
+			2301 SE 17th St.<br>
+			Fort Lauderdale, FL 33316
+		</div>
+		<div id="map">
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Hyatt+Regency+Pier+Sixty-Six,+2301+SE+17th+St,+Fort+Lauderdale,+FL,+United+States&amp;aq=0&amp;oq=Hyatt+Regency+Pier+Sixty-Six++2301+SE+17th+St&amp;sll=37.0625,-95.677068&amp;sspn=47.080837,87.890625&amp;ie=UTF8&amp;hq=Hyatt+Regency+Pier+Sixty-Six,+2301+SE+17th+St,+Fort+Lauderdale,+FL,+United+States&amp;ll=26.101545,-80.114803&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Hyatt+Regency+Pier+Sixty-Six,+2301+SE+17th+St,+Fort+Lauderdale,+FL,+United+States&amp;aq=0&amp;oq=Hyatt+Regency+Pier+Sixty-Six++2301+SE+17th+St&amp;sll=37.0625,-95.677068&amp;sspn=47.080837,87.890625&amp;ie=UTF8&amp;hq=Hyatt+Regency+Pier+Sixty-Six,+2301+SE+17th+St,+Fort+Lauderdale,+FL,+United+States&amp;ll=26.101545,-80.114803&amp;spn=0.006295,0.006295&amp;t=m" style="color:#0000FF;text-align:left; margin-left:627px;">View Larger Map</a></small>
+		</div>	
+		<div class="cursive_header">
+			Reception
+		</div>
+		<div class="travel_text">
+		The party will begin after the ceremony and cocktail hour at approximately 7pm in the Pier Top Ballroom of the Hyatt Regency. 
+		</div>	
+		<hr>
+		<div class="travel_header">
+			Getting Here
+		</div>
+		<div class="travel_text">
+		For those of you coming from out of town, the closest (and often cheapest airport) is Fort Lauderdale. From there, it is about a $15 cab ride to the Hyatt Regency.<br><br>
+		For those who are driving, take exit 23 off I95 South or Exit 26 off I95 North. There is free valet parking for all of our guests. Just tell them you are here for the Rittner-Rego Wedding!	
+		</div>
+		<hr>
+		<div class="travel_header">
+			Hotel Room Discounts
+		</div>
+		<div class="travel_text">
+		We have reserved a block of discounted rooms for Friday and Saturday night at the Hyatt Regency Pier Sixty-Six. If you wish to book one of these rooms, click here for details.
+		</div>	
+		<hr>
+		<div class="travel_header">
+			Things to Do in Ft. Lauderdale
+		</div>	
+		<div class="travel_text">
+			<ul>
+				<li>Ft. Lauderdale Beach</li>
+				<li>Water Taxi to surrounding bars and restaurants</li>
+				<li>Shops and Restaurants at Las Olas</li>
+				<li>The Galleria Mall</li>
+				<li>Everglades Airboat Tours</li>
+			</ul>
+		</div>		
+		<div class="cursive_header">
+			Restaurant Recommendations
+		</div>
+		<div class="travel_text">	
+			<ul>
+				<li>Pelican Landing</li>
+				<li>Coconut</li>
+				<li>Market 17</li>
+				<li>Yolo</li>
+				<li>Greek Island Tavern</li>
+				<li>Casa D'Angelo Ristorante</li>
+				<li>Sage Cafe</li>
+				<li>Wild East Bistro</li>
+			</ul>
+		</div>
+		<div class="travel_header">
+			Car Rentals
+		</div>
+		<div class="travel_text">
+			You can rent a car from Avis, which is located on the Hyatt Regency property itself. Click <a href="http://locations.avis.com/fl/ft-lauderdale/f8d.html">here</a> to reserve a car.<br><br>
+			I would recommend renting from here instead of the airport. The rates tend to be cheaper, and you can just return the car to the lot at the end of the day rather than paying the hotel’s overnight parking fees.
+		</div>	
+	</div>	
+
+	<div class="slide" id="registry">
+		<div class="section_title">
+			Registry
+		</div>
+		<div id="zola">
+			ZOLA
+		</div>	
+		<div id="zola_description">
+			(This combines various store registries in one spot)
+		</div>
+		<div id="footer">
+			<img src="assets/images/plane.jpg">
+			See you in Ft. Lauderdale!
+			<img src="assets/images/palmtree.jpg">
+		</div>
+		<div id="designed_by">
+			This site was created by the bride.
+		</div>		
+	</div>	
+
+</body>
+	<script src="assets/scripts/application.js"></script>
+</html>
