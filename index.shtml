@@ -60,14 +60,14 @@
 			</div> 
 		</div>
 		<div class="profile" id="michelle">
-			<div id="profile_label">
+			<div class="profile_label">
 				Michelle
 			</div>
 			<img src="assets/images/michelle.jpg">
 			<p>Orignally from Rhode Island, Michelle has recently relocated to Miami, FL. Although a lawyer by day, she keeps herself busy planning her next travel adventures. She’s a big fan of sushi, kitty cats, cooking, web design, and offbeat Netflix documentaries.</p>
 		</div>
 		<div class="profile">
-			<div id="profile_label">
+			<div class="profile_label">
 				Blake
 			</div>
 			<img src="assets/images/blake.jpg">
