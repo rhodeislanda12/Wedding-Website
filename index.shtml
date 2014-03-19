@@ -17,7 +17,6 @@
 </head>
 <body>
   <div class="top">
-    <img src="assets/images/pier66.jpg">  
   </div>
     
 
@@ -85,12 +84,14 @@
       </div>
     </div>
 
-    <div class="how_we_met">
-      <h1>How We Met</h1>
-      <p>When Michelle was in law school in Boston, a mutual friend and classmate often invited Blake (one of her college friends) to various law school events. From trips to Maine to sushi nights, Blake and Michelle were always at the same events with the same circle of friends, but they hardly talked. Little did Michelle know that Blake secretly had a crush on her.<br><br>
+    <div class="row">
+      <div class="how_we_met col-md-8 col-md-offset-2 col-sm-12">
+        <h1>How We Met</h1>
+        <p>When Michelle was in law school in Boston, a mutual friend and classmate often invited Blake (one of her college friends) to various law school events. From trips to Maine to sushi nights, Blake and Michelle were always at the same events with the same circle of friends, but they hardly talked. Little did Michelle know that Blake secretly had a crush on her.<br><br>
 
-      Finally, when the two of them were playing pool one night, Blake asked Michelle on a date. He suggested they go movie hopping over the long weekend. Michelle immediately said she was too busy, but then quickly changed her mind and said yes. Over Columbus Day weekend of 2010, they went on a three movie marathon date and then to dinner afterward.  The rest is history!</p>
-    </div>  
+        Finally, when the two of them were playing pool one night, Blake asked Michelle on a date. He suggested they go movie hopping over the long weekend. Michelle immediately said she was too busy, but then quickly changed her mind and said yes. Over Columbus Day weekend of 2010, they went on a three movie marathon date and then to dinner afterward.  The rest is history!</p>
+      </div>
+    </div>
 
   <div class="slide" id="proposal">
     <div class="section_title">
