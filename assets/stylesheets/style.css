@@ -78,6 +78,7 @@ src: url('/assets/fonts/futura.ttc');
 @media only screen and (max-width: 802px) {
   .intro {
     width: 562px;
+    height: 177px;
   }
 }
 
@@ -152,16 +153,44 @@ src: url('/assets/fonts/futura.ttc');
   text-align: center;
 }
 
+.about-section
+{
+  width: 1001px;
+  margin: 10px auto;
+}
+
 .profile
 {
   height: auto;
   float: left;
+  width: 490px;
+  margin-top: 20px;
 }
 
-#michelle
+@media only screen and (max-width: 850px) {
+  .profile{
+    float: none;
+    marg
+  }
+  .about-section{
+    width: 490px;
+  }
+
+}
+
+.profile p
 {
-
+  text-align: left;
+  margin: 13px auto;
 }
+
+
+.profile img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
 
 .image-caption-text {
   margin-top: 20px;
@@ -170,8 +199,8 @@ src: url('/assets/fonts/futura.ttc');
 
 .profile_label
 {
-  width: 100%;
-  margin: 15px 0;
+  margin: 15px auto;
+  text-align: center;
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: -.07em;
@@ -198,7 +227,7 @@ src: url('/assets/fonts/futura.ttc');
 .how_we_met
 {
   width: 830px;
-  height: auto;
+  margin: 0 auto;
 }
 
 .how_we_met p

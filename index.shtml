@@ -65,28 +65,23 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="profile 
-          col-md-offset-2 col-md-4
-          col-sm-6
-          col-xs-12 col-sm-12" id="michelle">
+    <div class="about-section">
+      <div class="profile michelle">
         <div class="profile_label">
           Michelle
         </div>
         <img src="assets/images/michelle.jpg">
         <p class="image-caption-text">Orignally from Rhode Island, Michelle has recently relocated to Miami, FL. Although a lawyer by day, she keeps herself busy planning her next travel adventures. She’s a big fan of sushi, kitty cats, cooking, web design, and offbeat Netflix documentaries.</p>
       </div>
-      <div class="profile col-md-4 col-sm-6 col-xs-12">
+      <div class="profile">
         <div class="profile_label">
           Blake
         </div>
         <img src="assets/images/blake.jpg">
         <p class="image-caption-text">Blake was born and raised in Miami, although he spent the last 10 years of his life in NYC and Boston. He works as a software engineer. When he’s not coding up a storm, he loves playing guitar, street hockey, traveling, and watching the Miami Heat.</p>   
       </div>
-    </div>
 
-    <div class="row">
-      <div class="how_we_met col-md-8 col-md-offset-2 col-sm-12">
+      <div class="how_we_met">
         <h1>How We Met</h1>
         <p>When Michelle was in law school in Boston, a mutual friend and classmate often invited Blake (one of her college friends) to various law school events. From trips to Maine to sushi nights, Blake and Michelle were always at the same events with the same circle of friends, but they hardly talked. Little did Michelle know that Blake secretly had a crush on her.<br><br>
 
