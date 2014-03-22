@@ -42,7 +42,7 @@
       </li>
     </ul> 
 
-    <!--
+    
     <div id="welcome_box">
       Hello!  Welcome to our wedding website. We can’t wait to celebrate our wedding on January 17, 2015 with everyone. Until then, take some time to explore our site and plan your travels. <span>Don’t forget to RSVP!</span> — M & B
     </div>  
@@ -62,7 +62,7 @@
         <script language="JavaScript" src="assets/scripts/countdown.js"></script>
       </div> 
     </div>
-  -->
+  
 
     <div class="row">
       <div class="profile 
