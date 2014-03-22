@@ -58,14 +58,20 @@ src: url('/assets/fonts/futura.ttc');
   z-index: -9999;
 }
 
-
-
 .slide
 {
   margin: 0 auto;
   width: 100%;
   height: 50rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+
 
 
 #welcome_box
