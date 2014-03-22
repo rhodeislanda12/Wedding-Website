@@ -46,7 +46,6 @@ src: url('/assets/fonts/futura.ttc');
 .top
 {
   display: block;
-  min-height: 500px;
   margin: 0 auto;
   height: auto;
   max-width: 100%;
