@@ -288,5 +288,11 @@
   </div>  
 
 </body>
-  <script src="assets/scripts/application.js"></script>
+<script src="assets/scripts/application.js"></script>
+  <script>
+  $('.top').css('height', $(window).height()*.9);
+  $(window).resize(function () {
+    $('.top').css('height', $(window).height()*.9);
+  })
+  </script>
 </html>
