@@ -71,7 +71,16 @@ src: url('/assets/fonts/futura.ttc');
   }
 }
 
+.intro {
+  margin: 22px auto;
+  width: 802px;
+}
 
+@media only screen and (max-width: 802px) {
+  .intro {
+    width: 562px;
+  }
+}
 
 
 #welcome_box
@@ -80,13 +89,11 @@ src: url('/assets/fonts/futura.ttc');
   color: black;
   font-size: 22px;
   font-family: HelveticaNeue;
-  padding:13px;
+  padding: 5px 13px;
   float:left;
   width: 562px;
-  height: 117px;
   float: left;
   font-style:italic;
-  margin: 22px 34px 0px 235px;
 }
 
 #welcome_box span 
@@ -100,10 +107,10 @@ src: url('/assets/fonts/futura.ttc');
   width: 220px;
   height: auto;
   float: left;
-  margin: 22px 10px;
+  margin: 0px 10px;
 }
 
-@media only screen and (max-width: 1108px) {
+@media only screen and (max-width: 802px) {
   #yellow_box {
     display: none;
   }
@@ -117,9 +124,8 @@ src: url('/assets/fonts/futura.ttc');
 #count
 {
   background: #ffd62c;
-  padding: 1px 0 0 0;
+  padding: 5px 0;
   width: 100%;
-  height: 151px;
   -webkit-transition: background-color .25s ease-in;
 }
 
