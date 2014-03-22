@@ -259,10 +259,16 @@ src: url('/assets/fonts/futura.ttc');
   height: 2890px;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 850px) {
   #party
   {
     height: 5620px;
+  }
+  #party .attendants {
+    width: 450px;
+  }
+  .column.groom {
+    float: none;
   }
 }
 
@@ -304,9 +310,14 @@ src: url('/assets/fonts/futura.ttc');
   padding-bottom: 20px;
 }
 
+
+.attendants {
+  width: 960px;
+  margin: 0 auto;
+}
+
 #bride
 {
-  margin-left: 190px;
   margin-right: 60px;
 }
 

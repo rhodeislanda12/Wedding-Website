@@ -113,63 +113,65 @@
     <div class="section_title">
       Wedding Party
     </div>
-    <div class="column" id="bride">
-      <h1>Bride's Attendants</h1>
-      
-      <img src="assets/images/char.jpg">
-      <h2>Charmiane Lieu</h2>
-      <p>Michelle and Char became friends freshman year of college. Over the years, Char has joined the Rittners for holidays and family celebrations whenever she can't make it home. Char always knows how to make Michelle laugh with her gross doctor stories and general silliness!</p>
-      
-      <img src="assets/images/lindseyR.jpg">
-      <h2>Lindsey Rhodes</h2>
-      <p>Lindsey and Michelle met when they were in kindergarten, and Lindsey’s family moved two doors down from hers.They soon became inseparable, playing Barbies, choreographing dances, and having sleepovers. Even though Lindsey has moved to every corner of the country, they have always remained good friends.</p>
+    <div class="attendants">
+      <div class="column" id="bride">
+        <h1>Bride's Attendants</h1>
+        
+        <img src="assets/images/char.jpg">
+        <h2>Charmiane Lieu</h2>
+        <p>Michelle and Char became friends freshman year of college. Over the years, Char has joined the Rittners for holidays and family celebrations whenever she can't make it home. Char always knows how to make Michelle laugh with her gross doctor stories and general silliness!</p>
+        
+        <img src="assets/images/lindseyR.jpg">
+        <h2>Lindsey Rhodes</h2>
+        <p>Lindsey and Michelle met when they were in kindergarten, and Lindsey’s family moved two doors down from hers.They soon became inseparable, playing Barbies, choreographing dances, and having sleepovers. Even though Lindsey has moved to every corner of the country, they have always remained good friends.</p>
 
-      <img src="assets/images/david.jpg">
-      <h2>David Rittner</h2>
-      <p>David is the best little brother Michelle could ask for (even though he’s about a foot taller than her). Although they live far apart, they always ask for each others’ advice about school, life and work.</p>
+        <img src="assets/images/david.jpg">
+        <h2>David Rittner</h2>
+        <p>David is the best little brother Michelle could ask for (even though he’s about a foot taller than her). Although they live far apart, they always ask for each others’ advice about school, life and work.</p>
 
-      <img src="assets/images/lindseyF.jpg">
-      <h2>Lindsey Fernandez</h2>
-      <p>Lindsey and Michelle met when they lived in the same dorm during freshman year at Brown. They have always shared a passion for travel, art and film. They even spent summer 2005 together in China teaching English.</p>
+        <img src="assets/images/lindseyF.jpg">
+        <h2>Lindsey Fernandez</h2>
+        <p>Lindsey and Michelle met when they lived in the same dorm during freshman year at Brown. They have always shared a passion for travel, art and film. They even spent summer 2005 together in China teaching English.</p>
 
-      <img src="assets/images/jason.jpg">
-      <h2>Jason Chen</h2>
-      <p>Jason and Michelle became friends while enduring the best (and worst) of Brown's poly sci classes. Jason's impeccable style, witty jokes, and love of the NYC food scene makes hanging out with him a blast.</p>
+        <img src="assets/images/jason.jpg">
+        <h2>Jason Chen</h2>
+        <p>Jason and Michelle became friends while enduring the best (and worst) of Brown's poly sci classes. Jason's impeccable style, witty jokes, and love of the NYC food scene makes hanging out with him a blast.</p>
 
-      <img src="assets/images/laura.jpg">
-      <h2>Laura Snizek</h2>
-      <p>Friends since freshman year of college, Laura always encourages Michelle to get more in touch with nature. Although she now lives in Atlanta, Laura and Michelle have a shared love for Rhode Island's finest institutions (i.e. Wright's Chicken Farm and Jack-o-Lantern Spectacular).</p>
+        <img src="assets/images/laura.jpg">
+        <h2>Laura Snizek</h2>
+        <p>Friends since freshman year of college, Laura always encourages Michelle to get more in touch with nature. Although she now lives in Atlanta, Laura and Michelle have a shared love for Rhode Island's finest institutions (i.e. Wright's Chicken Farm and Jack-o-Lantern Spectacular).</p>
 
-    </div>  
+      </div>  
 
-    <div class="column">
-      <h1>Groom's Attendants</h1>
-      
-      <img src="assets/images/brian.jpg">
-      <h2>Brian Tovar</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere. Duis et volutpat nisl, vel malesuada nisl. Nam id sem urna.</p>
-      
-      <img src="assets/images/antonio.jpg">
-      <h2>Antonio Dell'Aglio</h2> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere. Duis et volutpat nisl, vel malesuada nisl. Nam id sem urna.</p>
+      <div class="column groom">
+        <h1>Groom's Attendants</h1>
+        
+        <img src="assets/images/brian.jpg">
+        <h2>Brian Tovar</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere. Duis et volutpat nisl, vel malesuada nisl. Nam id sem urna.</p>
+        
+        <img src="assets/images/antonio.jpg">
+        <h2>Antonio Dell'Aglio</h2> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere. Duis et volutpat nisl, vel malesuada nisl. Nam id sem urna.</p>
 
-      <img src="assets/images/kyle.jpg">
-      <h2>Kyle Rego</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+        <img src="assets/images/kyle.jpg">
+        <h2>Kyle Rego</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
 
-      <img src="assets/images/charley.jpg">
-      <h2>Charley McMillan</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+        <img src="assets/images/charley.jpg">
+        <h2>Charley McMillan</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
 
-      <img src="assets/images/manav.jpg">
-      <h2>Manav Malhotra</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+        <img src="assets/images/manav.jpg">
+        <h2>Manav Malhotra</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
 
-      <img src="assets/images/matthew.jpg">
-      <h2>Matthew Gordon</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
+        <img src="assets/images/matthew.jpg">
+        <h2>Matthew Gordon</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit dolor lacus, at gravida quam fermentum ut. Praesent consequat suscipit neque, suscipit posuere est euismod at. Morbi sodales risus a dui suscipit posuere.</p>
 
-    </div>  
+      </div>
+    </div>
   </div>
 
   <div class="slide" id="rsvp">
