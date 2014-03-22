@@ -62,7 +62,6 @@ src: url('/assets/fonts/futura.ttc');
 {
   margin: 0 auto;
   width: 100%;
-  height: 50rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -193,7 +192,7 @@ src: url('/assets/fonts/futura.ttc');
 
 #proposal
 {
-  margin-top: 120px;
+
 }
 
 .how_we_met
